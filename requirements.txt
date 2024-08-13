@@ -1,0 +1,6 @@
+chemprop
+rdkit
+chembl_structure_pipeline
+pyparsing
+openpyxl
+numpy<2
