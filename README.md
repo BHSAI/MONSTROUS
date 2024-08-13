@@ -42,10 +42,13 @@ Once everything is installed, you can then run the script by running `python pyt
 Here are some example prompts:
 
 - `python python/monstrous_clt.py -i examples/example_input.csv -o examples -f json`
-	- (link to output) 
+	- [output](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_json_ouput.json) 
 - `python python/monstrous_clt.py -i examples/example_input.csv -o examples -f database`
-	- (link to output)
+	- [output](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_database_output.csv)
 - `python python/monstrous_clt.py -i examples/example_input.csv -o examples -f csv`
-	- (link to output)
+	- [inhibitor output](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_csv_output_inhibitor.csv)
+	- [inhibitor output with applicability domain](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_csv_output_inhibitor_with_applicability_domain.csv)
+	- [substrate output](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_csv_output_substrate.csv)
+	- [substrate output with applicability domain](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_csv_output_substrate_with_applicability_domain.csv)
 
 These prompts take the input file from the `examples` folder and output back to the example folder.
