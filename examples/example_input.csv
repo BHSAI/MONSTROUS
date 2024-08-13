@@ -1,0 +1,16 @@
+Name,SMILES
+Verapamil,COC1=C(OC)C=C(CCN(C)CCCC(C#N)(C(C)C)C2=CC(OC)=C(OC)C=C2)C=C1
+Lopinavir,CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O
+Probenecid,CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O
+Saquinavir,CC(C)(C)NC(=O)C1CC2CCCCC2CN1CC(C(CC3=CC=CC=C3)NC(=O)C(CC(=O)N)NC(=O)C4=NC5=CC=CC=C5C=C4)O
+Bromosulphophthalein,[O-]S(=O)(=O)c1c(O)ccc(c1)C3(OC(=O)c2c(Br)c(Br)c(Br)c(Br)c23)c4ccc(O)c(c4)S([O-])(=O)=O
+Methotrexate,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O
+Furosemide,C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl
+Metformin,CN(C)C(=N)N=C(N)N
+Cimetidine,CC1=C(N=CN1)CSCCNC(=NC)NC#N
+Procainamide,CCN(CC)CCNC(=O)C1=CC=C(C=C1)N
+Oestrone,CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)O
+Pravastatin,CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC(CC(CC(=O)O)O)O)O
+Delaviridine,CC(C)NC1=C(N=CC=C1)N1CCN(CC1)C(=O)C1=CC2=C(N1)C=CC(NS(C)(=O)=O)=C2
+Loperamide,CN(C)C(=O)C(CCN1CCC(O)(CC1)C1=CC=C(Cl)C=C1)(C1=CC=CC=C1)C1=CC=CC=C1
+Rifampicin,CC1C=CC=C(C(=O)NC2=C(C(=C3C(=C2O)C(=C(C4=C3C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C=NN5CCN(CC5)C)C

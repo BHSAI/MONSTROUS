@@ -1,0 +1,29 @@
+Fold 0
+Model 0 best validation auc = 0.880805 on epoch 11
+Model 0 provided with no test set, no metric evaluation will be performed.
+Model 1 best validation auc = 0.893189 on epoch 8
+Model 1 provided with no test set, no metric evaluation will be performed.
+Model 2 best validation auc = 0.874613 on epoch 8
+Model 2 provided with no test set, no metric evaluation will be performed.
+Model 3 best validation auc = 0.884675 on epoch 9
+Model 3 provided with no test set, no metric evaluation will be performed.
+Model 4 best validation auc = 0.893963 on epoch 7
+Model 4 provided with no test set, no metric evaluation will be performed.
+Model 5 best validation auc = 0.886997 on epoch 10
+Model 5 provided with no test set, no metric evaluation will be performed.
+Model 6 best validation auc = 0.880805 on epoch 8
+Model 6 provided with no test set, no metric evaluation will be performed.
+Model 7 best validation auc = 0.875387 on epoch 10
+Model 7 provided with no test set, no metric evaluation will be performed.
+Model 8 best validation auc = 0.884675 on epoch 6
+Model 8 provided with no test set, no metric evaluation will be performed.
+Model 9 best validation auc = 0.879257 on epoch 7
+Model 9 provided with no test set, no metric evaluation will be performed.
+Ensemble test auc = nan
+Ensemble test mcc = nan
+1-fold cross validation
+	Seed 0 ==> test auc = nan
+	Seed 0 ==> test mcc = nan
+Overall test auc = nan +/- nan
+Overall test mcc = nan +/- nan
+Elapsed time = 4:09:54
