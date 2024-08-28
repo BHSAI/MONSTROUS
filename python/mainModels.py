@@ -87,24 +87,14 @@ def run_sea(compounds, channels):
             resultsSEA = {}
             if compound.fp != None:
                 for protein in proteinsSEA:
-                    rs = 0
+                    max_similarity = 0
                     for seaCompound in seaCompounds[protein]:
-                        ts = DataStructs.FingerprintSimilarity(compound.fp, seaCompound.fp, metric=DataStructs.TanimotoSimilarity)
-                        if ts >= 0.57:
-                            rs += ts
-                    resultValue = calcP(rs, len(seaCompounds[protein]))
-                    resultsSEA[protein] = (resultValue <= SEA_THRESHOLD)
-                compound.resultsSEA = resultsSEA
+                        similarity = DataStructs.FingerprintSimilarity(compound.fp, seaCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                        max_similarity = max(similarity, max_similarity)
+                    resultsSEA[protein] = (max_similarity >= SEA_THRESHOLD)
+                compound.resultsSEA = resultsSEA   
         except:
             channels.writeErrorMsg(f"Failed to run Similarity Approach predictions for SMILES: {compound.original}")
-
-def calcP(sumOfRelevantSimilarities, numMols):
-    z = (sumOfRelevantSimilarities - (0.000424 * numMols)) / (0.00449 * (numMols ** 0.665))
-    xz = -(math.e ** ((-1 * z * math.pi) / (math.sqrt(6) - 0.577215665)))
-    if z <= 28:
-        return (1 - (math.e ** xz))
-    else:
-        return ((-1 * xz) - ((xz ** 2) / 2) - ((xz ** 3) / 6))
 
 def divideCompounds(compounds, batchSize):
     for i in range(0, len(compounds), batchSize):
