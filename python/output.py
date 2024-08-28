@@ -6,8 +6,8 @@ def write_csv(compounds, outputChannel, proteinGroup, applyApplicabilityDomainFi
     writer = csv.writer(outputChannel, lineterminator='\n')
 
     header = ["Name", "SMILES (original)", "SMILES (standardized)"]
-    if proteinGroup == "inhibitor": header += inhibitorsGCNN + inhibitorsSEA
-    if proteinGroup == "substrate": header += substratesGCNN + substratesSEA
+    if proteinGroup == "inhibitor": header += inhibitorsGCNN + inhibitorsSA
+    if proteinGroup == "substrate": header += substratesGCNN + substratesSA
     _ = writer.writerow(header)
 
     for compound in compounds:
@@ -18,10 +18,10 @@ def write_csv(compounds, outputChannel, proteinGroup, applyApplicabilityDomainFi
                 else: 
                     if protein in compound.resultsGCNN: row.append(compound.resultsGCNN[protein])
                     else: row.append("-")
-            for protein in inhibitorsSEA:
-                if compound.outsideApplicabilityDomainSEA == None or compound.outsideApplicabilityDomainSEA[protein]: row.append("-")
+            for protein in inhibitorsSA:
+                if compound.outsideApplicabilityDomainSA == None or compound.outsideApplicabilityDomainSA[protein]: row.append("-")
                 else: 
-                    if protein in compound.resultsSEA: row.append(compound.resultsSEA[protein])
+                    if protein in compound.resultsSA: row.append(compound.resultsSA[protein])
                     else: row.append("-")
         elif proteinGroup == "substrate" and applyApplicabilityDomainFilter:
             for protein in substratesGCNN: 
@@ -29,24 +29,24 @@ def write_csv(compounds, outputChannel, proteinGroup, applyApplicabilityDomainFi
                 else: 
                     if protein in compound.resultsGCNN: row.append(compound.resultsGCNN[protein])
                     else: row.append("-")
-            for protein in substratesSEA:
-                if compound.outsideApplicabilityDomainSEA == None or compound.outsideApplicabilityDomainSEA[protein]: row.append("-")
+            for protein in substratesSA:
+                if compound.outsideApplicabilityDomainSA == None or compound.outsideApplicabilityDomainSA[protein]: row.append("-")
                 else: 
-                    if protein in compound.resultsSEA: row.append(compound.resultsSEA[protein])
+                    if protein in compound.resultsSA: row.append(compound.resultsSA[protein])
                     else: row.append("-")
         elif proteinGroup == "inhibitor":
             for protein in inhibitorsGCNN: 
                 if protein in compound.resultsGCNN: row.append(compound.resultsGCNN[protein])
                 else: row.append("-")
-            for protein in inhibitorsSEA:
-                if protein in compound.resultsSEA: row.append(compound.resultsSEA[protein])
+            for protein in inhibitorsSA:
+                if protein in compound.resultsSA: row.append(compound.resultsSA[protein])
                 else: row.append("-")
         elif proteinGroup == "substrate":
             for protein in substratesGCNN: 
                 if protein in compound.resultsGCNN: row.append(compound.resultsGCNN[protein])
                 else: row.append("-")
-            for protein in substratesSEA:
-                if protein in compound.resultsSEA: row.append(compound.resultsSEA[protein])
+            for protein in substratesSA:
+                if protein in compound.resultsSA: row.append(compound.resultsSA[protein])
                 else: row.append("-")
         _ = writer.writerow(row)
 
@@ -58,9 +58,9 @@ def write_json(compounds, outputChannel):
                          "original_smiles" : compound.original,
                          "standardized_smiles" : compound.smiles,
                          "results_gcnn" : compound.resultsGCNN,
-                         "results_sea" : compound.resultsSEA,
+                         "results_sa" : compound.resultsSA,
                          "outside_applicability_domain_gcnn" : compound.outsideApplicabilityDomainGCNN,
-                         "outside_applicability_domain_sea" : compound.outsideApplicabilityDomainSEA,
+                         "outside_applicability_domain_sa" : compound.outsideApplicabilityDomainSA,
                          "filtered" : compound.filtered
                          })
     res_dict = {"compounds": jsonList}
@@ -83,10 +83,10 @@ def write_database(compounds, outputChannel):
             else: appDomain = "-"
             row = [compound.name, compound.original, compound.smiles, "inhibitor", protein, val, appDomain]
             _ = writer.writerow(row)
-        for protein in inhibitorsSEA:
-            if protein in compound.resultsSEA: val = compound.resultsSEA[protein]
+        for protein in inhibitorsSA:
+            if protein in compound.resultsSA: val = compound.resultsSA[protein]
             else: val = "-"
-            if compound.outsideApplicabilityDomainSEA != None and protein in compound.outsideApplicabilityDomainSEA: appDomain = compound.outsideApplicabilityDomainSEA[protein]
+            if compound.outsideApplicabilityDomainSA != None and protein in compound.outsideApplicabilityDomainSA: appDomain = compound.outsideApplicabilityDomainSA[protein]
             else: appDomain = "-"
             row = [compound.name, compound.original, compound.smiles, "inhibitor", protein, val, appDomain]
             _ = writer.writerow(row)
@@ -97,10 +97,10 @@ def write_database(compounds, outputChannel):
             else: appDomain = "-"
             row = [compound.name, compound.original, compound.smiles, "substrate", protein, val, appDomain]
             _ = writer.writerow(row)
-        for protein in substratesSEA:
-            if protein in compound.resultsSEA: val = compound.resultsSEA[protein]
+        for protein in substratesSA:
+            if protein in compound.resultsSA: val = compound.resultsSA[protein]
             else: val = "-"
-            if compound.outsideApplicabilityDomainSEA != None and protein in compound.outsideApplicabilityDomainSEA: appDomain = compound.outsideApplicabilityDomainSEA[protein]
+            if compound.outsideApplicabilityDomainSA != None and protein in compound.outsideApplicabilityDomainSA: appDomain = compound.outsideApplicabilityDomainSA[protein]
             else: appDomain = "-"
             row = [compound.name, compound.original, compound.smiles, "substrate", protein, val, appDomain]
             _ = writer.writerow(row)

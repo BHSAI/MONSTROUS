@@ -27,9 +27,9 @@ def getGCNNCompounds(channels):# Returns a map where keys are the GCNN proteins 
         allCompounds[protein] = compounds
     return allCompounds
 
-def getSEACompounds(channels):# Returns a map where keys are the SEA proteins and the values are lists of Compounds (Compounds must have a fingerprint) NOTE: these are the app domain compounds
+def getSACompounds(channels):# Returns a map where keys are the SA proteins and the values are lists of Compounds (Compounds must have a fingerprint) NOTE: these are the app domain compounds
     print("Getting Similarity Approach compounds...")
-    proteins = proteinsSEA
+    proteins = proteinsSA
     allCompounds = {}
     for protein in proteins:
         print("\tGetting compounds for " + protein)
@@ -55,7 +55,7 @@ def getSEACompounds(channels):# Returns a map where keys are the SEA proteins an
 
 def applicabilityDomain(compounds, channels):
     gcnnCompounds = getGCNNCompounds(channels)
-    seaCompounds = getSEACompounds(channels)
+    saCompounds = getSACompounds(channels)
 
     for compound in compounds:
         if compound.fp != None:
@@ -69,30 +69,30 @@ def applicabilityDomain(compounds, channels):
                 except:
                     channels.writeErrorMsg(f"Failed to generate applicability domain for: {gcnnProtein}, {compound.original}")
             compound.outsideApplicabilityDomainGCNN = outsideApplicabilityDomainGCNN
-            outsideApplicabilityDomainSEA = {}
-            for seaProtein in proteinsSEA:
+            outsideApplicabilityDomainSA = {}
+            for saProtein in proteinsSA:
                 try:
                     maxTanimotoSimilarity = 0
-                    for seaCompound in seaCompounds[seaProtein]:
-                        maxTanimotoSimilarity = max(maxTanimotoSimilarity, DataStructs.FingerprintSimilarity(compound.fp, seaCompound.fp, metric=DataStructs.TanimotoSimilarity))
-                    outsideApplicabilityDomainSEA[seaProtein] = maxTanimotoSimilarity > APPLICABILITY_DOMAIN_THRESHOLD
+                    for saCompound in saCompounds[saProtein]:
+                        maxTanimotoSimilarity = max(maxTanimotoSimilarity, DataStructs.FingerprintSimilarity(compound.fp, saCompound.fp, metric=DataStructs.TanimotoSimilarity))
+                    outsideApplicabilityDomainSA[saProtein] = maxTanimotoSimilarity > APPLICABILITY_DOMAIN_THRESHOLD
                 except:
-                    channels.writeErrorMsg(f"Failed to generate applicability domain for: {seaProtein}, {compound.original}")
-            compound.outsideApplicabilityDomainSEA = outsideApplicabilityDomainSEA
+                    channels.writeErrorMsg(f"Failed to generate applicability domain for: {saProtein}, {compound.original}")
+            compound.outsideApplicabilityDomainSA = outsideApplicabilityDomainSA
 
-def run_sea(compounds, channels):
-    seaCompounds = getSEACompounds(channels)
+def run_sa(compounds, channels):
+    saCompounds = getSACompounds(channels)
     for compound in compounds:
         try:
-            resultsSEA = {}
+            resultsSA = {}
             if compound.fp != None:
-                for protein in proteinsSEA:
+                for protein in proteinsSA:
                     max_similarity = 0
-                    for seaCompound in seaCompounds[protein]:
-                        similarity = DataStructs.FingerprintSimilarity(compound.fp, seaCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                    for saCompound in saCompounds[protein]:
+                        similarity = DataStructs.FingerprintSimilarity(compound.fp, saCompound.fp, metric=DataStructs.TanimotoSimilarity)
                         max_similarity = max(similarity, max_similarity)
-                    resultsSEA[protein] = (max_similarity >= SEA_THRESHOLD)
-                compound.resultsSEA = resultsSEA   
+                    resultsSA[protein] = (max_similarity >= SA_THRESHOLD)
+                compound.resultsSA = resultsSA   
         except:
             channels.writeErrorMsg(f"Failed to run Similarity Approach predictions for SMILES: {compound.original}")
 
@@ -133,6 +133,6 @@ def runMainModels(compounds, batch_size, channels):
     channels.writeStateMsg("Running GCNN models...")
     GCNN(compounds, batch_size, channels)
     channels.writeStateMsg("Running Similarity Approach models...")
-    run_sea(compounds, channels)
+    run_sa(compounds, channels)
     channels.writeStateMsg("Finding applicability domain...")
     applicabilityDomain(compounds, channels)

@@ -14,7 +14,7 @@ substratesGCNN = [
 proteinsGCNN = inhibitorsGCNN + substratesGCNN
 
 
-inhibitorsSEA = [
+inhibitorsSA = [
     "MATE1_inhibitor",
     "MATE2_inhibitor",
     "OAT1_inhibitor",
@@ -23,7 +23,7 @@ inhibitorsSEA = [
     "MRP2_inhibitor"
 
 ]
-substratesSEA = [
+substratesSA = [
     "BSEP_substrate",
     "MATE1_substrate",
     "MATE2_substrate",
@@ -34,9 +34,9 @@ substratesSEA = [
     "OCT2_substrate",
     "MRP2_substrate"
 ]
-proteinsSEA = inhibitorsSEA + substratesSEA
+proteinsSA = inhibitorsSA + substratesSA
 
 
 APPLICABILITY_DOMAIN_THRESHOLD = 0.2
 #ROUND_DIGIT = 2
-SEA_THRESHOLD = 0.27
+SA_THRESHOLD = 0.27
