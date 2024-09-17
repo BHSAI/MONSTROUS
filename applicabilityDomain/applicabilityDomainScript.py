@@ -1,6 +1,5 @@
 import argparse
 import csv
-from datetime import datetime
 import os
 from rdkit import DataStructs
 from rdkit import Chem
@@ -9,10 +8,6 @@ from chembl_structure_pipeline import standardizer
 from rdkit.Chem import rdFingerprintGenerator
 
 APPLICABILITY_DOMAIN_THRESHOLD = 0.2
-# proteinCompoundsPath = "C:/Users/bclancy/Desktop/git projects/MONSTROUS_public/applicabilityDomain/OCT2_substrate.csv"
-# testCompoundsPath = "C:/Users/bclancy/Desktop/git projects/MONSTROUS_public/applicabilityDomain/example_input.csv"
-# outputPath = "C:/Users/bclancy/Desktop/git projects/MONSTROUS_public/applicabilityDomain/example_output.csv"
-
 
 def argParse():
     parser = argparse.ArgumentParser()
@@ -36,11 +31,6 @@ class Compound:
         self.original = original
         self.smiles = None
         self.fp = None
-        self.resultsGCNN = {}
-        self.resultsSA = {}
-        self.outsideApplicabilityDomainGCNN = None
-        self.outsideApplicabilityDomainSA = None
-        self.filtered = False # Marks compounds that should be filtered out of the GCNN due to having too small a molecular weight or having inorganic atoms
 
 def standardize(compounds):
     for compound in compounds:
