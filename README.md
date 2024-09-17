@@ -12,6 +12,7 @@ This repository contains the data and models used to make MONSTROUS's prediction
 - A Similarity Approach folder containing the data for our non-GCNN transporters. This data includes csv files containing lists of compounds for each transporter.
 - A python folder containing the code that will run the MONSTROUS command line tool.
 - An examples folder containing an example input as well as output files for each output format the tool supports.
+- An applicability domain folder containing a standalone applicability domain script along with supporting examples.
 
 ### GCNN
 The GCNN folder contains two subfolders: compounds and models. In the compounds folder are CSV files for each transport protein, containing a list of reference compounds that are known inhibitors or substrates for the given transporter. These compounds are used in generating the applicability domain for that transporter. In the models folder we hold the models for each GCNN transporter. These models are used to generate the values for GCNN transporters
@@ -55,3 +56,19 @@ Here are some example prompts:
 	- [substrate output with applicability domain](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_csv_output_substrate_with_applicability_domain.csv)
 
 These prompts take the input file from the `examples` folder and output back to the example folder.
+
+### Running the standalone Applicability Domain tool
+
+The final folder in this repository is the applicabilityDomain folder which contains a standalone script allowing you to find which of your test compounds are within the applicability domain of a group of protein compounds. To run this tool, you will need to input 2 CSVs of compounds (in the same 'Name,' 'SMILES,' format as mentioned previously), the first being your Input File containing your test compounds, and the second being your Protein File containing the compounds related to your protein. 
+
+To run the applicability domain tool, you can use the same environment used to run the complete MONSTROUS tool.
+From a command line, navigate to the applicability domain folder and run the line:
+
+`python applicabilityDomainScript.py -i {INPUT_FILE} -p {PROTEIN_FILE} -o {OUTPUT_FILE}`
+
+Replacing `INPUT_FILE`, `PROTEIN_FILE`, `OUTPUT_FILE` with the path of the 2 input CSVs and the desired path for the output csv respectively. All 3 tags (`-i`, `-p`, `-o`) must be used and given a value.
+
+The input and output file from the following example can be found in the applicabilityDomain folder:
+
+- `python applicabilityDomainScript.py -i example_input.csv -p example_protein.csv -o example_output.csv`
+  - [output]()
