@@ -7,8 +7,6 @@ from rdkit.Chem.MolStandardize import rdMolStandardize
 from chembl_structure_pipeline import standardizer
 from rdkit.Chem import rdFingerprintGenerator
 
-APPLICABILITY_DOMAIN_THRESHOLD = 0.2
-
 def argParse():
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--inputFile", nargs=1, help="Location of the csv containing the SMILES you wish to test")
@@ -31,6 +29,7 @@ class Compound:
         self.original = original
         self.smiles = None
         self.fp = None
+
 
 def standardize(compounds):
     for compound in compounds:
@@ -74,21 +73,21 @@ def getCompounds(path):
 def applicabilityDomain(testCompounds, proteinCompounds):
     for compound in testCompounds:
         if compound.fp != None:
-            outsideApplicabilityDomain = {}
+            sdc = {}
             maxTanimotoSimilarity = 0
             for proteinCompound in proteinCompounds:
                 maxTanimotoSimilarity = max(maxTanimotoSimilarity, DataStructs.FingerprintSimilarity(compound.fp, proteinCompound.fp, metric=DataStructs.TanimotoSimilarity))
-            outsideApplicabilityDomain = maxTanimotoSimilarity > APPLICABILITY_DOMAIN_THRESHOLD
-            compound.outsideApplicabilityDomain = outsideApplicabilityDomain
+            sdc = maxTanimotoSimilarity
+            compound.sdc = sdc
 
 def write_csv(compounds, outputChannel):
     writer = csv.writer(outputChannel, lineterminator='\n')
 
-    header = ["Name", "SMILES (original)", "SMILES (standardized)", "Within Applicability Domain"]
+    header = ["Name", "SMILES (original)", "SMILES (standardized)", "SDC"]
     _ = writer.writerow(header)
 
     for compound in compounds:
-        row = [compound.name, compound.original, compound.smiles, compound.outsideApplicabilityDomain == False]
+        row = [compound.name, compound.original, compound.smiles, compound.sdc]
         _ = writer.writerow(row)
 
 if __name__ == "__main__":
