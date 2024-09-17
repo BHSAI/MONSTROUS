@@ -46,7 +46,7 @@ Once everything is installed, you can then run the script by running `python pyt
 Here are some example prompts:
 
 - `python python/monstrous_clt.py -i examples/example_input.csv -o examples -f json`
-	- [output](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_json_ouput.json) 
+	- [output](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_json_output.json) 
 - `python python/monstrous_clt.py -i examples/example_input.csv -o examples -f database`
 	- [output](https://github.com/BHSAI/MONSTROUS/blob/main/examples/example_database_output.csv)
 - `python python/monstrous_clt.py -i examples/example_input.csv -o examples -f csv`
@@ -71,4 +71,4 @@ Replacing `INPUT_FILE`, `PROTEIN_FILE`, `OUTPUT_FILE` with the path of the 2 inp
 The input and output file from the following example can be found in the applicabilityDomain folder:
 
 - `python applicabilityDomainScript.py -i example_input.csv -p example_protein.csv -o example_output.csv`
-  - [output]()
+  - [output](https://github.com/BHSAI/MONSTROUS/blob/main/applicabilityDomain/example_output.csv)
