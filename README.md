@@ -2,6 +2,8 @@
 
 MOlecular traNSporT inhibitoR and substrate predictOr Utility Server (MONSTROUS) is a computational transporter profiler that predicts the potential of a chemical to interact with transporters recommended for testing in drug development by regulatory agencies. Currently, these transporters are considered to be a major player in determining the safety and efficacy of drugs. MONSTROUS utilizes either graph convolutional neural networks or similarity-based cheminformatics approaches to screen query chemicals against 12 transporters widely expressed in various tissues, including liver, brain, and kidney, and makes predictions as to their potential to be inhibitors as well as substrates.
 
+The MONSTROUS web app is available at https://monstrous.bhsai.org.
+
 ##### Supporting information for paper:
 Title: 
 Authors: 
