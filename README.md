@@ -5,9 +5,12 @@ MOlecular traNSporT inhibitoR and substrate predictOr Utility Server (MONSTROUS)
 The MONSTROUS web app is available at https://monstrous.bhsai.org.
 
 ##### Supporting information for paper:
-Title: 
-Authors: 
-Journal: 
+Title: MONSTROUS: a web-based chemical-transporter interaction profiler
+
+Authors: Mohamed Diwan M. AbdulHameed,
+Souvik Dey, Zhen Xu, Ben Clancy,
+Valmik Desai, and Anders Wallqvist
+
 ### Intro
 This repository contains the data and models used to make MONSTROUS's predictions and has sorted this data into 4 sections:
 - A GCNN folder containing the data for our GCNN transporters. This data includes csv files containing lists of compounds for each GCNN transporter as well as their GCNN models.
