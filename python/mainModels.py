@@ -62,20 +62,22 @@ def applicabilityDomain(compounds, channels):
             outsideApplicabilityDomainGCNN = {}
             for gcnnProtein in proteinsGCNN:
                 try:
-                    maxTanimotoSimilarity = 0
+                    tot = 0
                     for gcnnCompound in gcnnCompounds[gcnnProtein]:
-                        maxTanimotoSimilarity = max(maxTanimotoSimilarity, DataStructs.FingerprintSimilarity(compound.fp, gcnnCompound.fp, metric=DataStructs.TanimotoSimilarity))
-                    outsideApplicabilityDomainGCNN[gcnnProtein] = maxTanimotoSimilarity > APPLICABILITY_DOMAIN_THRESHOLD
+                        tanimoto = DataStructs.FingerprintSimilarity(compound.fp, gcnnCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                        tot = tot + ((math.e)^((-3 * tanimoto)/(1 - tanimoto)))
+                    outsideApplicabilityDomainGCNN[gcnnProtein] = tot > APPLICABILITY_DOMAIN_THRESHOLD
                 except:
                     channels.writeErrorMsg(f"Failed to generate applicability domain for: {gcnnProtein}, {compound.original}")
             compound.outsideApplicabilityDomainGCNN = outsideApplicabilityDomainGCNN
             outsideApplicabilityDomainSA = {}
             for saProtein in proteinsSA:
                 try:
-                    maxTanimotoSimilarity = 0
+                    tot = 0
                     for saCompound in saCompounds[saProtein]:
-                        maxTanimotoSimilarity = max(maxTanimotoSimilarity, DataStructs.FingerprintSimilarity(compound.fp, saCompound.fp, metric=DataStructs.TanimotoSimilarity))
-                    outsideApplicabilityDomainSA[saProtein] = maxTanimotoSimilarity > APPLICABILITY_DOMAIN_THRESHOLD
+                        tanimoto = DataStructs.FingerprintSimilarity(compound.fp, gcnnCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                        tot = tot + ((math.e)^((-3 * tanimoto)/(1 - tanimoto)))
+                    outsideApplicabilityDomainSA[saProtein] = tot > APPLICABILITY_DOMAIN_THRESHOLD
                 except:
                     channels.writeErrorMsg(f"Failed to generate applicability domain for: {saProtein}, {compound.original}")
             compound.outsideApplicabilityDomainSA = outsideApplicabilityDomainSA

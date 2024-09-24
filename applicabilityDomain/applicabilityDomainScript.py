@@ -1,5 +1,6 @@
 import argparse
 import csv
+import math
 import os
 from rdkit import DataStructs
 from rdkit import Chem
@@ -74,10 +75,11 @@ def applicabilityDomain(testCompounds, proteinCompounds):
     for compound in testCompounds:
         if compound.fp != None:
             sdc = {}
-            maxTanimotoSimilarity = 0
+            tot = 0
             for proteinCompound in proteinCompounds:
-                maxTanimotoSimilarity = max(maxTanimotoSimilarity, DataStructs.FingerprintSimilarity(compound.fp, proteinCompound.fp, metric=DataStructs.TanimotoSimilarity))
-            sdc = maxTanimotoSimilarity
+                tanimoto = DataStructs.FingerprintSimilarity(compound.fp, proteinCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                tot + ((math.e)^((-3 * tanimoto)/(1 - tanimoto)))
+            sdc = tot
             compound.sdc = sdc
 
 def write_csv(compounds, outputChannel):
