@@ -77,8 +77,13 @@ def applicabilityDomain(testCompounds, proteinCompounds):
             sdc = {}
             tot = 0
             for proteinCompound in proteinCompounds:
-                tanimoto = DataStructs.FingerprintSimilarity(compound.fp, proteinCompound.fp, metric=DataStructs.TanimotoSimilarity)
-                tot + ((math.e)^((-3 * tanimoto)/(1 - tanimoto)))
+                tanimoto = 1 - DataStructs.FingerprintSimilarity(compound.fp, proteinCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                if (tanimoto == 1): 
+                    tot += 0
+                elif (tanimoto == 0):
+                    tot += 1
+                else:
+                    tot = tot + math.pow((math.e),((-3 * tanimoto)/(1 - tanimoto)))
             sdc = tot
             compound.sdc = sdc
 

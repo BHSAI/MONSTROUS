@@ -64,9 +64,14 @@ def applicabilityDomain(compounds, channels):
                 try:
                     tot = 0
                     for gcnnCompound in gcnnCompounds[gcnnProtein]:
-                        tanimoto = DataStructs.FingerprintSimilarity(compound.fp, gcnnCompound.fp, metric=DataStructs.TanimotoSimilarity)
-                        tot = tot + ((math.e)^((-3 * tanimoto)/(1 - tanimoto)))
-                    outsideApplicabilityDomainGCNN[gcnnProtein] = tot > APPLICABILITY_DOMAIN_THRESHOLD
+                        tanimoto = 1 - DataStructs.FingerprintSimilarity(compound.fp, gcnnCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                        if (tanimoto == 1): 
+                            tot += 0
+                        elif (tanimoto == 0):
+                            tot += 1
+                        else:
+                            tot = tot + math.pow((math.e),((-3 * tanimoto)/(1 - tanimoto)))
+                    outsideApplicabilityDomainGCNN[gcnnProtein] = tot < APPLICABILITY_DOMAIN_THRESHOLD
                 except:
                     channels.writeErrorMsg(f"Failed to generate applicability domain for: {gcnnProtein}, {compound.original}")
             compound.outsideApplicabilityDomainGCNN = outsideApplicabilityDomainGCNN
@@ -75,9 +80,14 @@ def applicabilityDomain(compounds, channels):
                 try:
                     tot = 0
                     for saCompound in saCompounds[saProtein]:
-                        tanimoto = DataStructs.FingerprintSimilarity(compound.fp, gcnnCompound.fp, metric=DataStructs.TanimotoSimilarity)
-                        tot = tot + ((math.e)^((-3 * tanimoto)/(1 - tanimoto)))
-                    outsideApplicabilityDomainSA[saProtein] = tot > APPLICABILITY_DOMAIN_THRESHOLD
+                        tanimoto = 1 - DataStructs.FingerprintSimilarity(compound.fp, saCompound.fp, metric=DataStructs.TanimotoSimilarity)
+                        if (tanimoto == 1): 
+                            tot += 0
+                        elif (tanimoto == 0):
+                            tot += 1
+                        else:
+                            tot = tot + math.pow((math.e),((-3 * tanimoto)/(1 - tanimoto)))
+                    outsideApplicabilityDomainSA[saProtein] = tot < APPLICABILITY_DOMAIN_THRESHOLD
                 except:
                     channels.writeErrorMsg(f"Failed to generate applicability domain for: {saProtein}, {compound.original}")
             compound.outsideApplicabilityDomainSA = outsideApplicabilityDomainSA
