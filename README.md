@@ -27,6 +27,8 @@ The GCNN folder contains two subfolders: compounds and models. In the compounds 
 The similarity approach folder contains CSV files for each transport protein, containing a list of reference compounds that are known inhibitors or substrates for the given transporter. These compounds are used in generating the applicability domain for that transporter, as well as generating the values for similarity approach transporters
 
 ### Data
+A summary list of the transporters used in MONSTROUS along with their class, gene symbol, gene id, common name, and synonym
+
 | No. | Transporter class | Gene symbol | Gene id | Common name | Name | Synonym |
 |  --------  |  -------  |  -------  |  -------  |  -------  |  -------  |  -------  |
 | 1 | ABC | ABCB1 | 5243 | Pgp | ATP binding cassette subfamily B member 1 | MDR1 |
