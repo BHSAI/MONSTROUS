@@ -9,7 +9,7 @@ The MONSTROUS web app is available at https://monstrous.bhsai.org.
 
 ##### Citation
 
-If you use this code in your research, please cite:
+If you use this code in your work, please cite:
 
 AbdulHameed, M. D. M., Dey, S., Xu, Z., Clancy, B., Desai, V., & Wallqvist, A. (2025). MONSTROUS: a web-based chemical-transporter interaction profiler. Frontiers in pharmacology, 16, 1498945. https://doi.org/10.3389/fphar.2025.1498945
 
