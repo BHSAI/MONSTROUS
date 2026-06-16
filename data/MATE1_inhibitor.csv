@@ -1,0 +1,42 @@
+ID,NAME,SMILES,CLASS
+CHEMBL46,SID170464701,Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O,1
+CHEMBL941,IMATINIB,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,1
+CHEMBL163,ritonavir,CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,1
+CHEMBL58,mitoxantrone,O=C1c2c(O)ccc(O)c2C(=O)c2c(NCCNCCO)ccc(NCCNCCO)c21,1
+CHEMBL55,pentamidine,N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1,1
+CHEMBL87563,gabexate,CCOC(=O)c1ccc(OC(=O)CCCCCNC(=N)N)cc1,1
+CHEMBL360861,nifekalant,Cn1c(NCCN(CCO)CCCc2ccc([N+](=O)[O-])cc2)cc(=O)n(C)c1=O,1
+CHEMBL790,chlorhexidine,N=C(NCCCCCCNC(=N)NC(=N)Nc1ccc(Cl)cc1)NC(=N)Nc1ccc(Cl)cc1,1
+CHEMBL902,famotidine,NC(N)=Nc1nc(CSCC/C(N)=N/S(N)(=O)=O)cs1,1
+CHEMBL95,tacrine,Nc1c2c(nc3ccccc13)CCCC2,1
+CHEMBL1106,epinastine,NC1=NCC2c3ccccc3Cc3ccccc3N12,1
+CHEMBL30,CIMETIDINE,CN/C(=N\CCSCc1nc[nH]c1C)NC#N,1
+CHEMBL603,zafirlukast,COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,1
+CHEMBL84,topotecan,CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c(CN(C)C)c(O)ccc3nc2-1,1
+CHEMBL2,prazosin,COc1cc2nc(N3CCN(C(=O)c4ccco4)CC3)nc(N)c2cc1OC,1
+CHEMBL85,risperidone,Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,1
+CHEMBL115,indinavir,CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@@H](O)C[C@@H](Cc1ccccc1)C(=O)N[C@H]1c2ccccc2C[C@H]1O,1
+CHEMBL49,buspirone,O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,1
+CHEMBL1200629,vecuronium bromide,CC(=O)O[C@H]1C[C@@H]2CC[C@@H]3[C@H](CC[C@@]4(C)[C@H]3C[C@H]([N+]3(C)CCCCC3)[C@@H]4OC(C)=O)[C@@]2(C)C[C@@H]1N1CCCCC1,1
+CHEMBL5194558,2,Cc1[nH]cnc1CSCCNc1ncccn1,1
+CHEMBL481,irinotecan,CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC,1
+CHEMBL219916,Domperidone,O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,1
+CHEMBL1502,pantoprazole,COc1ccnc(C[S+]([O-])c2nc3cc(OC(F)F)ccc3[nH]2)c1OC,1
+CHEMBL1732,dihydroergotamine,CN1C[C@H](C(=O)N[C@]2(C)O[C@@]3(O)[C@@H]4CCCN4C(=O)[C@H](Cc4ccccc4)N3C2=O)C[C@@H]2c3cccc4[nH]cc(c34)C[C@H]21,1
+CHEMBL590799,camostat,CN(C)C(=O)COC(=O)Cc1ccc(OC(=O)c2ccc(NC(=N)N)cc2)cc1,1
+CHEMBL289469,granisetron,CN1C2CCCC1CC(NC(=O)c1nn(C)c3ccccc13)C2,1
+CHEMBL290106,BITHIONOL,Oc1c(Cl)cc(Cl)cc1Sc1cc(Cl)cc(Cl)c1O,1
+CHEMBL128,Sumatriptan,CNS(=O)(=O)Cc1ccc2[nH]cc(CCN(C)C)c2c1,1
+CHEMBL959,rimantadine,CC(N)C12CC3CC(CC(C3)C1)C2,1
+CHEMBL48361,Dabigatran,Cn1c(CNc2ccc(C(=N)N)cc2)nc2cc(C(=O)N(CCC(=O)O)c3ccccn3)ccc21,1
+CHEMBL1790041,ranitidine,CNC(=C[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1,1
+CHEMBL339427,tubocurarine,COc1cc2c3cc1Oc1cc(ccc1O)C[C@@H]1c4c(cc(OC)c(O)c4Oc4ccc(cc4)C[C@@H]3N(C)CC2)CC[N+]1(C)C,1
+CHEMBL11,imipramine,CN(C)CCCN1c2ccccc2CCc2ccccc21,1
+CHEMBL4550375,DHD1; D1,CCS(=O)(=O)c1ccc2oc(-c3ccc4c(c3)C=C[C@H](O)[C@H]4O)nc2c1,1
+CHEMBL1294,Quinidine,C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12,1
+CHEMBL1201187,maraviroc,Cc1nnc(C(C)C)n1[C@@H]1C[C@H]2CC[C@@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)c1ccccc1,1
+CHEMBL1017,Telmisartan,CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1,1
+CHEMBL33,Levofloxacin,C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,1
+CHEMBL1393,spironolactone,CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,1
+CHEMBL691,ethinyl estradiol,C#C[C@]1(O)CC[C@H]2[C@@H]3CCc4cc(O)ccc4[C@H]3CC[C@@]21C,1
+CHEMBL1499,cortisone,C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2C(=O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO,1

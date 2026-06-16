@@ -1,0 +1,41 @@
+ID,NAME,SMILES,CLASS
+CHEMBL2074900,SKF550,CN(CCCl)C1c2ccccc2-c2ccccc21,1
+CHEMBL790,chlorhexidine,N=C(NCCCCCCNC(=N)NC(=N)Nc1ccc(Cl)cc1)NC(=N)Nc1ccc(Cl)cc1,1
+CHEMBL11,imipramine,CN(C)CCCN1c2ccccc2CCc2ccccc21,1
+CHEMBL95,tacrine,Nc1c2c(nc3ccccc13)CCCC2,1
+CHEMBL46,ondansetron,Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O,1
+CHEMBL87563,gabexate,CCOC(=O)c1ccc(OC(=O)CCCCCNC(=N)N)cc1,1
+CHEMBL1197556,Decynium-22,CCN1/C(=C/c2ccc3ccccc3[n+]2CC)C=Cc2ccccc21,1
+CHEMBL55,Pentamidine,N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1,1
+CHEMBL1502,pantoprazole,COc1ccnc(C[S+]([O-])c2nc3cc(OC(F)F)ccc3[nH]2)c1OC,1
+CHEMBL1229211,"2, DTG",C[C@@H]1CCO[C@H]2Cn3cc(C(=O)NCc4ccc(F)cc4F)c(=O)c(O)c3C(=O)N12,1
+CHEMBL290106,bithionol,Oc1c(Cl)cc(Cl)cc1Sc1cc(Cl)cc(Cl)c1O,1
+CHEMBL691,ethinyl estradiol,C#C[C@]1(O)CC[C@H]2[C@@H]3CCc4cc(O)ccc4[C@H]3CC[C@@]21C,1
+CHEMBL900,orphenadrine,Cc1ccccc1C(OCCN(C)C)c1ccccc1,1
+CHEMBL364713,noscapine,COc1ccc2c(c1OC)C(=O)O[C@@H]2[C@H]1c2c(cc3c(c2OC)OCO3)CCN1C,1
+CHEMBL932,dipyridamole,OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1,1
+CHEMBL481,irinotecan,CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC,1
+CHEMBL517,disopyramide,CC(C)N(CCC(C(N)=O)(c1ccccc1)c1ccccn1)C(C)C,1
+CHEMBL1200629,vecuronium bromide,CC(=O)O[C@H]1C[C@@H]2CC[C@@H]3[C@H](CC[C@@]4(C)[C@H]3C[C@H]([N+]3(C)CCCCC3)[C@@H]4OC(C)=O)[C@@]2(C)C[C@@H]1N1CCCCC1,1
+CHEMBL941,imatinib,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,1
+CHEMBL1106,epinastine,NC1=NCC2c3ccccc3Cc3ccccc3N12,1
+CHEMBL289469,granisetron,CN1C2CCCC1CC(NC(=O)c1nn(C)c3ccccc13)C2,1
+CHEMBL959,rimantadine,CC(N)C12CC3CC(CC(C3)C1)C2,1
+CHEMBL4100146,9,NC(N)=Nc1ccc(I)cc1,1
+CHEMBL48361,Dabigatran,Cn1c(CNc2ccc(C(=N)N)cc2)nc2cc(C(=O)N(CCC(=O)O)c3ccccn3)ccc21,1
+CHEMBL753,Phenoxybenzamine,CC(COc1ccccc1)N(CCCl)Cc1ccccc1,1
+CHEMBL723,carvedilol,COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12,1
+CHEMBL219916,domperidone,O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,1
+CHEMBL4062501,5,CC(C)(C)c1ccc(N=C(N)N)cc1,1
+CHEMBL43415,4,Cc1ccc(NC(=N)N)cc1,1
+CHEMBL603,zafirlukast,COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,1
+CHEMBL360861,nifekalant,Cn1c(NCCN(CCO)CCCc2ccc([N+](=O)[O-])cc2)cc(=O)n(C)c1=O,1
+CHEMBL85,RISPERIDONE,Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,1
+CHEMBL1160763,8,N=C(N)Nc1ccc(Br)cc1,1
+CHEMBL49,buspirone,O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1,1
+CHEMBL2,prazosin,COc1cc2nc(N3CCN(C(=O)c4ccco4)CC3)nc(N)c2cc1OC,1
+CHEMBL590799,camostat,CN(C)C(=O)COC(=O)Cc1ccc(OC(=O)c2ccc(NC(=N)N)cc2)cc1,1
+CHEMBL41040,3,N=C(N)Nc1ccc(Cl)cc1,1
+CHEMBL30,cimetidine,CN/C(=N\CCSCc1nc[nH]c1C)NC#N,1
+CHEMBL660,Amantadine,NC12CC3CC(CC(C3)C1)C2,1
+CHEMBL163,ritonavir,CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,1

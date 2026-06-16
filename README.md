@@ -1,3 +1,4 @@
+
 # MONSTROUS
 
 MOlecular traNSporT inhibitoR and substrate predictOr Utility Server (MONSTROUS) is a computational transporter profiler that predicts the potential of a chemical to interact with transporters recommended for testing in drug development by regulatory agencies. Currently, these transporters are considered to be a major player in determining the safety and efficacy of drugs. MONSTROUS utilizes either graph convolutional neural networks or similarity-based cheminformatics approaches to screen query chemicals against 12 transporters widely expressed in various tissues, including liver, brain, and kidney, and makes predictions as to their potential to be inhibitors as well as substrates.
@@ -24,6 +25,24 @@ The GCNN folder contains two subfolders: compounds and models. In the compounds 
 
 ### Similarity Approach
 The similarity approach folder contains CSV files for each transport protein, containing a list of reference compounds that are known inhibitors or substrates for the given transporter. These compounds are used in generating the applicability domain for that transporter, as well as generating the values for similarity approach transporters
+
+### Data
+A summary list of the transporters used in MONSTROUS along with their class, gene symbol, gene id, common name, and synonym
+
+| No. | Transporter class | Gene symbol | Gene id | Common name | Name | Synonym |
+|  --------  |  -------  |  -------  |  -------  |  -------  |  -------  |  -------  |
+| 1 | ABC | ABCB1 | 5243 | Pgp | ATP binding cassette subfamily B member 1 | MDR1 |
+| 2 | ABC | ABCG1 | 9429 | BCRP | ATP binding cassette subfamily G member 2 | MRX; MXR; |
+| 3 | ABC | ABCC1 | 4363 | MRP1 | ATP binding cassette subfamily C member 1 | MRP; ABCC; |
+| 4 | ABC | ABCC1 | 1244 | MRP2 | ATP binding cassette subfamily C member 2 | DJS; cMRP; |
+| 5 | ABC | ABCB11 | 8647 | BSEP | ATP binding cassette subfamily B member 11 | PGY4; SPGP; ABC16; BRIC2; |
+| 6 | SLC | SLCO1B1 | 10599 | OATP1B1 | Solute carrier organic anion transporter family member 1B1 | LST1; HBLRR; LST-1; OATP2; OATPC; OATP-C; SLC21A6 |
+| 7 | SLC | SLCO1B3 | 28234 | OATP1B3 | Solute carrier organic anion transporter family member 1B3 | LST3; HBLRR; LST-2; OATP8; OATP-8; OATP1B3; SLC21A8; LST-3TM13 |
+| 8 | SLC | SLC22A6 | 9356 | OAT1 | Solute carrier family 22 member 6 | PAHT; HOAT1; ROAT1 |
+| 9 | SLC | SLC22A8 | 9376 | OAT3 | Solute carrier family 22 member 8 |  |
+| 10 | SLC | SLC22A2 | 6582 | OCT2 | Solute carrier family 22 member 2 |  |
+| 11 | SLC | SLC47A1 | 55244 | MATE1 | Solute carrier family 47 member 1 |  |
+| 12 | SLC | SLC47A2 | 146802 | MATE2K | Solute carrier family 47 member 2 | MATE2; MATE2K; MATE2-B; MATE2-K |
 
 ## MONSTROUS Command Line Tool
 

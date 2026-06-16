@@ -1,0 +1,188 @@
+ID,SMILES,NAME,CLASS
+mbcd0031258,CCCCCC(=O)OCC(COP(=O)(O)OCCNc1ccc([N+](=O)[O-])c2nonc12)OC(=O)CCCCC,NBD-phosphatidylcholine,1
+mbcd0025844,COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1,doxorubicin,1
+mbcd0001372,Cc1c2oc3c(C)ccc(C(=O)N[C@@H]4C(=O)N[C@H](C(C)C)C(=O)N5CCC[C@H]5C(=O)N(C)CC(=O)N(C)[C@@H](C(C)C)C(=O)O[C@@H]4C)c3nc-2c(C(=O)N[C@@H]2C(=O)N[C@H](C(C)C)C(=O)N3CCC[C@H]3C(=O)N(C)CC(=O)N(C)[C@@H](C(C)C)C(=O)O[C@@H]2C)c(N)c1=O,Dactinomycin,1
+mbcd0003155,Cc1ccc(N(CC(=O)O)CC(=O)O)c(OCCOc2cc(-c3c4cc(Cl)c(=O)cc-4oc4cc(O)c(Cl)cc34)ccc2N(CC(=O)O)CC(=O)O)c1,Fluo-3,1
+mbcd0003070,C[C@]12CC[C@H](OS(=O)(=O)O)CC1=CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12,dehydroepiandrosterone sulfate,1
+mbcd0031410,CCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OCC[N+](C)(C)C)OC(=O)CCCCCNc1ccc([N+](=O)[O-])c2nonc12,C6-NBD-phosphatidylcholine,1
+mbcd0031452,O=C(O)CCc1cc2c(cc1O)Oc1cc(O)c(CCC(=O)O)cc1C21OC(=O)c2cc(C(=O)O)ccc21,BCECF,1
+mbcd0003129,S=C=NCCc1ccccc1,Phenethyl isothiocyanate,1
+mbcd0003110,Nc1ncnc2c1ncn2CCOCP(=O)(O)O,Adefovir,1
+mbcd0031270,CCCCC[C@H](O)/C=C/[C@H]1C(SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)CC(=O)[C@H]1C/C=C\CCCC(=O)O,Glutathione conjugate of PGA2,1
+mbcd0027726,CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@@]1(C)C(=O)[C@H](O)C3=C(C)[C@@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@@](O)([C@@H](OC(=O)c4ccccc4)[C@H]21)C3(C)C,Docetaxel,1
+mbcd0000047,N[C@@H](CCC(=O)N[C@@H](CSc1ccc([N+](=O)[O-])cc1[N+](=O)[O-])C(=O)NCC(=O)O)C(=O)O,"2,4-dinitrophenyl-S-glutathione",1
+mbcd0031261,CCCCC/C=C\C/C=C\C=C\C=C\[C@@H](SC[C@H](N)C(=O)NCC(=O)O)[C@@H](O)CCCC(=O)O,Leukotrien D4,1
+mbcd0029352,CCC(CSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)C(=O)c1ccc(OCC(=O)O)c(Cl)c1Cl,Ethacrynic acid-glutathione,1
+mbcd0002917,CCCCC/C=C\C/C=C\C=C\C=C\[C@@H](SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)[C@@H](O)CCCC(=O)O,Leukotrien C4,1
+mbcd0029351,O=C(O)CN(CC(=O)O)Cc1cc2c(cc1O)Oc1cc(O)c(CN(CC(=O)O)CC(=O)O)cc1C21OC(=O)c2ccccc21,Calcein,1
+mbcd0002831,Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,resveratrol,1
+mbcd0001038,Cc1c(F)c(N2CCNC(C)C2)cc2c1c(=O)c(C(=O)O)cn2C1CC1,Grepafloxacin,1
+mbcd0031396,COc1cc(/C=C/C(=O)CC(=O)C[C@@H](SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)c2ccc(O)c(OC)c2)ccc1O,Curcumin-SG,1
+mbcd0031260,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3C[C@H](O[C@@H]4O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,6alpha-glucuronosylhyodeoxycholic acid,1
+mbcd0027062,COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC,Verapamil,1
+mbcd0031269,COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)[C@H]1[C@@H](O2)O[C@H](SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)[C@H]1O,"Glutathione conjugate of Aflatoxin B1-8,9-epoxide",1
+mbcd0031272,N[C@@H](CCC(=O)N[C@@H](CSCCN(CCCl)c1ccc(C[C@H](N)C(=O)O)cc1)C(=O)NCC(=O)O)C(=O)O,Monochloromonoglutathionyl melphalan,1
+mbcd0001492,CC(=O)[C@]1(O)Cc2c(O)c3c(c(O)c2[C@@H](O[C@H]2C[C@H](N)[C@H](O)[C@H](C)O2)C1)C(=O)c1ccccc1C3=O,Idarubicin,1
+mbcd0031383,CC(=O)OCOC(=O)CN(CC(=O)OCOC(C)=O)c1ccc(C)cc1OCCOc1cc(-c2c3cc(Cl)c(=O)cc-3oc3cc(O)c(Cl)cc23)ccc1N(CC(=O)OCOC(C)=O)CC(=O)OCOC(C)=O,Fluo-3-AM,1
+mbcd0000072,COc1c(O)cc(C(=O)O[C@@H]2Cc3c(O)cc(O)cc3O[C@@H]2c2cc(O)c(O)c(O)c2)cc1O,4-O-methyl-EGCG,1
+mbcd0003120,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,Quercetin,1
+mbcd0000080,O=C(O)c1ccc2c(c1)C(=O)OC21c2ccc(O)cc2Oc2cc(O)ccc21,5-carboxyfluorescein,1
+mbcd0031257,CC(C)OC(=O)Nc1cccc(Cl)c1,Chlorpropham,1
+mbcd0003075,C[C@]12CC[C@@H]3c4ccc(OS(=O)(=O)O)cc4CC[C@H]3[C@@H]1CCC2=O,Estrone-3-sulfate,1
+mbcd0000398,COc1cc([C@H]2c3cc4c(cc3[C@H](O[C@@H]3O[C@@H]5CO[C@@H](C)O[C@H]5[C@H](O)[C@H]3O)[C@H]3COC(=O)[C@H]23)OCO4)cc(OC)c1O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O,Etoposide glucuronide,1
+mbcd0002323,CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@@H](O)C[C@@H](Cc1ccccc1)C(=O)N[C@H]1c2ccccc2C[C@H]1O,Indinavir,1
+mbcd0029372,O=C(O)c1ccc2c(c1)C(=O)OC21c2cc(Cl)c(O)cc2Oc2cc(O)c(Cl)cc21.O=C(O)c1ccc2c(c1)C1(OC2=O)c2cc(Cl)c(O)cc2Oc2cc(O)c(Cl)cc21,"5-carboxy-2',7'-dichlorofluorescein + 6-carboxy-2',7'-dichlorofluorescein",1
+mbcd0029932,COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)[C@@H]1C=CO[C@@H]1O2,Aflatoxin B1,1
+mbcd0030261,CC(=O)OCOC(=O)CCc1cc2c(cc1OCOC(C)=O)Oc1cc(OCOC(C)=O)c(CCC(=O)OCOC(C)=O)cc1C21OC(=O)c2cc(C(=O)OCOC(C)=O)ccc21,BCECF-AM,1
+mbcd0029361,N[C@@H](CCC(=O)N[C@@H](CSCCN(CCCl)c1ccc(CCCC(=O)O)cc1)C(=O)NCC(=O)O)C(=O)O,Monoglutathionyl-chlorambucil,1
+mbcd0029347,C[C@]12CC[C@@H]3c4ccc(O[C@@H]5O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]5O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,beta-estradiol 3-(beta-D-glucuronide),1
+mbcd0031180,COC(=O)c1ccccc1-c1c2ccc(=[N+](C)C)cc-2oc2cc(N(C)C)ccc12,Tetramethylrhodamine methyl ester,1
+mbcd0001216,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccccc21,Fluorescein,1
+mbcd0031409,CCCCCCCCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCNc1ccc([N+](=O)[O-])c2nonc12)COP(=O)(O)OC[C@H](N)C(=O)O,"L-Serine, 3-[[6-[(7-nitro-2,1,3-benzoxadiazol-4-yl)amino]-1-oxohexyl]oxy]-2-[(1-oxohexadecyl)oxy]propyl hydrogen phosphate (ester), (R)-",1
+mbcd0003043,CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1,Methotrexate,1
+mbcd0031259,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,zoledronic acid,1
+mbcd0031130,O=C(O)c1ccc2c(c1)C1(OC2=O)c2cc(Cl)c(O)cc2Oc2cc(O)c(Cl)cc21,"6-carboxy-2',7'-dichlorofluorescein",1
+mbcd0005183,COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(C)=O)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1,daunorubicin,1
+mbcd0031262,CCCCC/C=C\C/C=C\C=C\C=C\[C@@H](SC[C@H](NC(C)=O)C(=O)O)[C@@H](O)CCCC(=O)O,N-acetyl leukotriene E4,1
+mbcd0002990,N[C@@H](CCC(=O)N[C@@H](CSSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)C(=O)NCC(=O)O)C(=O)O,Glutathione-S-S-glutathione,1
+mbcd0002667,COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1[C@@H](NC(C)=O)CC2,Colchicine,1
+mbcd0031181,CCOC(=O)c1ccccc1-c1c2ccc(=[N+](C)C)cc-2oc2cc(N(C)C)ccc12,Tetramethylrhodamine ethyl ester,1
+mbcd0031267,NC(CCC(=O)NC(CSCCN(CCO)c1ccc(CCCC(=O)O)cc1)C(=O)NCC(=O)O)C(=O)O,Monohydroxy monoglutathionyl chlorambucil,1
+mbcd0000212,CC(=O)OCOC(=O)CN(CC(=O)OCOC(C)=O)Cc1cc2c(cc1OC(C)=O)Oc1cc(OC(C)=O)c(CN(CC(=O)OCOC(C)=O)CC(=O)OCOC(C)=O)cc1C21OC(=O)c2ccccc21,Calcein-AM,1
+mbcd0001472,CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccc(O)cc3)[C@H]2SC1,Cefadroxil,1
+mbcd0000779,CCc1c2c(nc3ccc(O)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC,SN-38,1
+mbcd0029416,CCc1cccc(C)c1NC(=O)CSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,2-Chloro-N-(2-methyl-6-ethylphenyl)acetamide-SG,1
+mbcd0031441,CC(=O)Oc1cc2c(cc1Cl)C1(OC(=O)c3ccc(C(=O)O)cc31)c1cc(Cl)c(OC(C)=O)cc1O2,"6-carboxy-2',7'-dicholorofluorescein-DA",1
+mbcd0000076,COc1c(O)cc(C(=O)O[C@@H]2Cc3c(O)cc(O)cc3O[C@@H]2c2cc(O)c(OC)c(O)c2)cc1O,"4',4-di-O-methyl-EGCG",1
+mbcd0031445,N[C@@H](CCC(=O)N[C@@H](CSC(=O)c1ccc2c(c1)C(=O)OC21c2ccc(O)cc2Oc2cc(O)ccc21)C(=O)NCC(=O)O)C(=O)O,5-CF-SG,1
+mbcd0002393,COC(=O)c1ccccc1-c1c2ccc(=N)cc-2oc2cc(N)ccc12,"Benzoic acid, 2-(6-amino-3-imino-3H-xanthen-9-yl)-, methyl ester",1
+mbcd0001135,CC[C@]1(O)C[C@@H]2C[N@@](CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C=O)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1,vincristine,1
+mbcd0003187,CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c(CN(C)C)c(O)ccc3nc2-1,topotecan,1
+mbcd0031382,CC(=O)Oc1ccc2c(c1)Oc1cc(OC(C)=O)ccc1C21OC(=O)c2ccccc21,Fluorescein diacetate,1
+mbcd0031268,CCCCCC1OC(O)C[C@@H]1SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O,Glutathione conjugate of 4-hydroxynonenal,1
+mbcd0031671,O=C(c1ccc(OCCN2CCCCC2)cc1)C1c2ccc(O[C@@H]3O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]3O)cc2SC1c1ccc(O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)cc1,"Raloxifene-6,4'-diglucuronide",1
+mbcd0001151,CC[C@]1(O)C[C@@H]2C[N@@](CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C)[C@H]3[C@@](O)(C(=O)OC)[C@H](OC(C)=O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1,Vinblastine,1
+mbcd0000187,C=CC1=C(C)/C(=C/c2[nH]c(Cc3[nH]c(/C=C4\NC(=O)C(C)=C4C=C)c(C)c3CCC(=O)O[C@@H]3O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]3O)c(CCC(=O)O)c2C)NC1=O,Bilirubin monoglucuronide,1
+mbcd0031444,O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccc(CCl)cc21,5-Chloromethylfluorescein,1
+mbcd0031271,CCCCC/C=C\CC(SCC(NC(=O)CCC(C)C(=O)O)C(=O)NCC(=O)O)C(CCCCCCCC(=O)O)[N+](=O)[O-],glutathione conjugated nitrolinoleic acid,1
+mbcd0000603,CCN1C(=O)CC(SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)C1=O,N-ethylmaleimide-GS,1
+mbcd0029350,COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@@H](O)[C@H](C)O1,Epirubicin,1
+mbcd0002981,O=C1c2c(O)ccc(O)c2C(=O)c2c(NCCNCCO)ccc(NCCNCCO)c21,mitoxantrone,1
+mbcd0003122,CC(=O)Oc1ccc2c(c1)Oc1cc(OC(C)=O)ccc1C21OC(=O)c2cc(C(=O)O)ccc21,5-carboxyfluorescein diacetate,1
+mbcd0029346,CCCCC[C@H](O)/C=C/[C@H]1[C@@H](SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)CC(=O)[C@@H]1CCCCCCC(=O)O,"gamma-Glutamyl-S-(1,15-dihydroxy-1,9-dioxoprost-13-en-11-yl)cysteinylglycine",1
+mbcd0003877,CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Citalopram,1
+mbcd0031446,CC(=O)Oc1cc2c(cc1Cl)C1(OC(=O)c3cc(C(=O)O)ccc31)c1cc(Cl)c(OC(C)=O)cc1O2,"5-Carboxy-2',7'-dicholorofluorescein-DA",1
+mbcd0000841,CN(C)c1ccc2c(-c3ccccc3)c3ccc(N(C)C)cc3[o+]c2c1,Tetramethylrosamine,1
+mbcd0002466,COc1cc([C@@H]2c3cc4c(cc3[C@@H](O[C@@H]3O[C@@H]5CO[C@@H](C)O[C@H]5[C@H](O)[C@H]3O)[C@H]3COC(=O)[C@H]23)OCO4)cc(OC)c1O,Etoposide,1
+mbcd0030762,COc1ccc(C(c2ccc(OC)cc2)C(Cl)(Cl)Cl)cc1,methoxychlor,1
+mbcd0031202,COP(=S)(OC)Oc1ccc([N+](=O)[O-])c(C)c1,Fenitrothion,1
+mbcd0003146,Nc1ccc(C(=O)NCC(=O)O)cc1,P-aminohippuric acid,1
+mbcd0000387,C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O,17beta-estradiol 17beta-D-glucuronide,1
+mbcd0031451,O=C(O)CCCc1cc2c(cc1O)Oc1cc(O)c(CCCC(=O)O)cc1C21OC(=O)c2cc(C(=O)O)ccc21,BCPCF,1
+mbcd0031443,CC(=O)Oc1ccc2c(c1)Oc1cc(OC(C)=O)ccc1C21OC(=O)c2cc(CCl)ccc21,5-Chloromethylfluorescein diacetate,1
+mbcd0000528,CCCCC/C=C\C/C=C\C=C\C=C\[C@@H](SC[C@H](N)C(=O)O)[C@@H](O)CCCC(=O)O,leukotriene E4,1
+mbcd0001532,CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O,Paclitaxel,1
+mbcd0001533,CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(N)=O)NC(=O)c1ccc2ccccc2n1,saquinavir,1
+mbcd0001172,CC[C@H](C)[C@H]1O[C@]2(CC[C@@H]1C)C[C@@H]1C[C@@H](C/C=C(\C)[C@@H](O[C@H]3C[C@H](OC)[C@@H](O[C@H]4C[C@H](OC)[C@@H](O)[C@H](C)O4)[C@H](C)O3)[C@@H](C)/C=C/C=C3\CO[C@@H]4[C@H](O)C(C)=C[C@@H](C(=O)O1)[C@]34O)O2.CO[C@H]1C[C@H](O[C@H]2[C@H](C)O[C@@H](O[C@@H]3/C(C)=C/C[C@@H]4C[C@@H](C[C@]5(CC[C@H](C)[C@@H](C(C)C)O5)O4)OC(=O)[C@@H]4C=C(C)[C@@H](O)[C@H]5OC/C(=C\C=C\[C@@H]3C)[C@]54O)C[C@@H]2OC)O[C@@H](C)[C@@H]1O,Ivermectin,1
+mbcd0002091,CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC,irinotecan,1
+mbcd0000627,CN(CCCC(O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O)c1cccnc1)N=O,NNAL-O-glucuronide,1
+mbcd0004701,C=CC1=C(C)/C(=C/c2[nH]c(Cc3[nH]c(/C=C4/NC(=O)C(C)=C4C=C)c(C)c3CCC(=O)O[C@@H]3O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]3O)c(CCC(=O)O[C@@H]3O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]3O)c2C)NC1=O,bilirubin bisglucuronoside,1
+mbcd0000440,CCCCCC=C/C=C1/C(=O)CC(SC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)[C@@H]1C/C=C\CCCC(=O)O,Glutathione conjugate of 15-deoxy-delta prostaglandin J2,1
+mbcd0029142,O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1,(-)-epigallocatechin gallate,1
+mbcd0000441,N[C@@H](CCC(=O)N[C@@H](CSCc1ccc(-c2c3ccc(=O)cc-3oc3cc(O)ccc23)c(C(=O)O)c1)C(=O)NCC(=O)O)C(=O)O,Glutathione-methylfluorescein,1
+mbcd0031129,O=C(O)c1ccc2c(c1)C(=O)OC21c2cc(Cl)c(O)cc2Oc2cc(O)c(Cl)cc21,"5-carboxy-2',7'-dichlorofluorescein",1
+mbcd0031266,N[C@@H](CCC(=O)N[C@@H](CSCCN(CCSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)c1ccc(CCCC(=O)O)cc1)C(=O)NCC(=O)O)C(=O)O,Bisglutathionyl chlorambucil,1
+mbcd0031263,CCNc1cc2[o+]c3cc(NCC)c(C)cc3c(-c3ccccc3C(=O)OCC)c2cc1C,Rhodamine 6G,1
+mbcd0003078,N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O,Glutathione,1
+mbcd0031424,CC(=O)OCOC(=O)CCCc1cc2c(cc1OC(C)=O)Oc1cc(OC(C)=O)c(CCCC(=O)OCOC(C)=O)cc1C21OC(=O)c2cc(C(=O)OCOC(C)=O)ccc21.CC(=O)OCOC(=O)CCCc1cc2c(cc1OC(C)=O)Oc1cc(OC(C)=O)c(CCCC(=O)OCOC(C)=O)cc1C21OC(=O)c2ccc(C(=O)OCOC(C)=O)cc21,BCPCF-AM,1
+mbcd0002019,CCCCCCOc1nonc1S(=O)(=O)c1ccccc1,"1,2,5-Oxadiazole, 3-(hexyloxy)-4-(phenylsulfonyl)-",0
+mbcd0031214,CCCCCCn1c(-c2ccc(N(C)C)cc2)nc2ccccc2c1=O,"4(3H)-Quinazolinone, 2-[4-(dimethylamino)phenyl]-3-hexyl-",0
+mbcd0031315,CCCCC[C@H](O)/C=C/[C@@H]1[C@@H](CCCCCCC(=O)O)[C@@H](O)C[C@H]1O,Prostaglandin F1alpha,0
+mbcd0031178,NC1CCN(c2nc3c(cc2F)c(=O)c(C(=O)O)cn3-c2ccc(F)cc2F)C1,Tosufloxacin,0
+mbcd0031667,O=c1ccc2ccc(O)cc2o1,7-hydroxycoumarin,0
+mbcd0002824,COc1cccc2c1CCCC2CCCN1CCN(C2CCCCC2)CC1,PB 28,0
+mbcd0030101,Clc1cccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)c1,"Piperazine, 1-[[2-(3-chlorophenyl)-4-oxazolyl]methyl]-4-cyclohexyl-",0
+mbcd0001267,CCCCC[C@H](O)/C=C/[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(=O)O,alprostadil,0
+mbcd0030092,c1ccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)cc1,"1-Cyclohexyl-4-[(2-phenyl-1,3-oxazol-4-yl)methyl]piperazine",0
+mbcd0001839,Nc1c(-c2ccccc2)no[n+]1[O-],3-Amino-4-phenylfuroxan,0
+mbcd0031449,CCN1C(=CC=Cc2oc3ccccc3[n+]2CC)Oc2ccccc21,DiOC2,0
+mbcd0001075,CC(C)(O/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(C[n+]3ccccc3)CS[C@H]12)c1csc(N)n1)C(=O)O,Ceftazidime,0
+mbcd0030500,CCCCC[C@H](O)/C=C/[C@H]1C=CC(=O)[C@@H]1C/C=C\CCCC(=O)O,Prostaglandin A2,0
+mbcd0010468,NC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H](N)C[C@@H]2N)[C@H](O)[C@@H](O)[C@@H]1O,Kanacin,0
+mbcd0013632,O=c1c(-c2ccc(O)cc2)coc2cc(O)ccc12,Daidzein,0
+mbcd0003071,O=C(Nc1nc2sc3c(c2c(=O)s1)CCCC3)c1ccccc1,"N-(5,6,7,8-tetrahydro-4-oxo-4H-[1]benzothieno[2,3-d][1,3]thiazin-2-yl)-benzamide",0
+mbcd0001343,CCCCC[C@H](O)/C=C/[C@H]1[C@H](O)CC(=O)[C@@H]1C/C=C\CCCC(=O)O,Dinoprostone,0
+mbcd0001129,CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1,rofecoxib,0
+mbcd0017980,O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O,ciprofloxacin,0
+mbcd0029455,CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c([N+](=O)[O-])cccc3nc2-1,9-Nitrocamptothecin,0
+mbcd0003046,Nc1nc2sc3c(c2c(=O)s1)CCCC3,"2-amino-5,6,7,8-tetrahydro-4H-[1]Benzothieno[2,3-d][1,3]thiazin-4-one",0
+mbcd0030111,COc1ccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)cc1,"Piperazine, 1-cyclohexyl-4-[[2-(4-methoxyphenyl)-4-oxazolyl]methyl]-",0
+mbcd0026443,S=C=NCc1ccccc1,Benzyl isothiocyanate,0
+mbcd0031006,COc1ccc(-c2cc(=O)c3c(O)cc(O[C@@H]4O[C@H](CO[C@@H]5O[C@@H](C)[C@H](O)[C@@H](O)[C@H]5O)[C@@H](O)[C@H](O)[C@H]4O)cc3o2)cc1O,Venosmine,0
+mbcd0002295,Nc1no[n+]([O-])c1-c1ccccc1,4-Amino-3-phenylfuroxan,0
+mbcd0000615,C[C@@H]1O[C@@H](O[C@H]2[C@H](Oc3cc(O)c4c(c3)O[C@H](c3ccc(O)cc3)CC4=O)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O,Naringin,0
+mbcd0002991,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,Ketoprofen,0
+mbcd0030103,Clc1ccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)cc1,"Piperazine, 1-[[2-(4-chlorophenyl)-4-oxazolyl]methyl]-4-cyclohexyl-",0
+mbcd0000679,NCCc1ccccc1,Phenethyl amine,0
+mbcd0020727,CN(C)CCn1nnnc1SCC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)Cc3csc(N)n3)[C@H]2SC1,Cefotiam,0
+mbcd0003072,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,celecoxib,0
+mbcd0002962,CCCCOc1nonc1S(=O)(=O)c1ccccc1,"1,2,5-Oxadiazole, 3-butoxy-4-(phenylsulfonyl)-",0
+mbcd0000172,NCc1ccccc1,Benzyl amine,0
+mbcd0031669,O=C(c1ccc(OCCN2CCCCC2)cc1)C1c2ccc(O[C@@H]3O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]3O)cc2SC1c1ccc(O)cc1,Raloxifene-6-beta-glucuronide,0
+mbcd0000659,Cc1nc(C)c(P2(=O)OC(C)CC(C)O2)c(-c2cccc([N+](=O)[O-])c2)c1C(=O)OCCN1CCN(C(c2ccccc2)c2ccccc2)CC1,PAK-104P,0
+mbcd0000680,O=C=NCCc1ccccc1,Phenethyl isocyanate,0
+mbcd0029414,CCOCN(C(=O)CSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)c1c(C)cccc1CC,Acetochlor-GSH,0
+mbcd0029417,CCc1cccc(C)c1NC(=O)CSC[C@H](N)C(=O)O,2-Chloro-N-(2-methyl-6-ethylphenyl)acetamide-Cys,0
+mbcd0000182,CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C)C(C)C,beta-Sitosterol,0
+mbcd0000133,O=C=Nc1cccc2ccccc12,alpha-naphthyl isocyanate,0
+mbcd0012405,O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,raloxifene,0
+mbcd0000719,CCCCC[C@H](O)/C=C/[C@@H]1[C@@H](C/C=C\CCCC(=O)O)[C@@H](O)C[C@H]1O,prostaglandin F2alpha,0
+mbcd0002775,Cc1c(-c2ccccc2)no[n+]1[O-],3-Methyl-4-phenylfuroxan,0
+mbcd0002805,NS(=O)(=O)c1c(-c2ccccc2)no[n+]1[O-],"1,2,5-Oxadiazole-3-sulfonamide, 4-phenyl-, 2-oxide",0
+mbcd0002471,COc1c(-c2ccccc2)no[n+]1[O-],"Furazan, methoxyphenyl-, 2-oxide",0
+mbcd0029377,CN[C@@H]1[C@@H](O)[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@H]3O[C@H]([C@@H](C)NC)CC[C@H]3N)[C@@H](N)C[C@H]2N)OC[C@]1(C)O,Gentamicin,0
+mbcd0030100,COc1cc2c(cc1OC)CN(Cc1coc(-c3ccc(Br)cc3)n1)CC2,"Isoquinoline, 2-[[2-(4-bromophenyl)-4-oxazolyl]methyl]-1,2,3,4-tetrahydro-6,7-dimethoxy-",0
+mbcd0002634,CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)O[C@H]1CO[C@H]2OCC[C@H]21)S(=O)(=O)c1ccc(N)cc1,Darunavir,0
+mbcd0031673,O=C(O)[C@H]1O[C@@H](Oc2cc3oc(-c4ccc(O)cc4)cc(=O)c3c(O)c2O)[C@H](O)[C@@H](O)[C@@H]1O,Scutellarein 7-O-beta-D-glucuronide,0
+mbcd0031308,COc1ccc(CCN2CCN(c3ncnc4c(C#N)c5n(c34)CCCC5)CC2)cc1,"6,7,8,9-tetrahydro-4-[4-[2-(4-methoxyphenyl)ethyl]-1-piperazinyl]-pyrimido[4,5-b]indolizine-10-carbonitrile",0
+mbcd0030093,c1ccc(-c2nc(CN3CCN(C4CCCCC4)CC3)cs2)cc1,"Piperazine, 1-cyclohexyl-4-[(2-phenyl-4-thiazolyl)methyl]-",0
+mbcd0027677,Nc1cccc2ccccc12,alpha-naphthyl amine,0
+mbcd0022552,COc1cc(O)c2c(=O)cc(-c3ccccc3)oc2c1,Tectochrysin,0
+mbcd0001795,Cc1cc(C#N)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(N)c1Br,Etravirine,0
+mbcd0002643,Cc1no[n+]([O-])c1-c1ccccc1,4-Methyl-3-phenylfuroxan,0
+mbcd0002291,COc1no[n+]([O-])c1-c1ccccc1,"3-Methoxy-4-phenyl-1,2,5-oxadiazole 5-oxide",0
+mbcd0030099,Brc1ccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)cc1,"Piperazine, 1-[[2-(4-bromophenyl)-4-oxazolyl]methyl]-4-cyclohexyl-",0
+mbcd0000303,COc1cc(C=CC(=O)CC(=O)C=Cc2ccc(O)c(OC)c2)ccc1O,Curcumin,0
+mbcd0030116,O=[N+]([O-])c1cccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)c1,"Piperazine, 1-cyclohexyl-4-[[2-(3-nitrophenyl)-4-oxazolyl]methyl]-",0
+mbcd0030096,Brc1cccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)c1,"Piperazine, 1-[[2-(3-bromophenyl)-4-oxazolyl]methyl]-4-cyclohexyl-",0
+mbcd0031668,O=C(O)[C@H]1C[C@H](Oc2ccc3ccc(=O)oc3c2)[C@H](O)[C@@H](O)[C@H]1O,7-hydroxycoumarin glucuronide,0
+mbcd0000713,CCCCC[C@H](O)C=CC1=C(CCCCCCC(=O)O)C(=O)CC1,Prostaglandin A1,0
+mbcd0031672,O=C(O)[C@H]1O[C@@H](Oc2c(O)cc3oc(-c4ccc(O)cc4)cc(=O)c3c2O)[C@H](O)[C@@H](O)[C@@H]1O,Scutellarein 6-O-beta-D-glucuronide,0
+mbcd0031426,CNC(=O)C[C@@H](N)C(=O)N[C@@H](C(=O)N[C@@H]1C(=O)N2[C@@H]1SC(C)(C)[C@@H]2C(=O)O)c1ccc(O)cc1,Aspoxicillin,0
+mbcd0031670,O=C(c1ccc(OCCN2CCCCC2)cc1)C1c2ccc(O)cc2SC1c1ccc(O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)cc1,Raloxifene-4'-beta-glucuronide,0
+mbcd0001837,NC(=O)c1no[n+]([O-])c1-c1ccccc1,"Furazancarboxamide, 4-phenyl-, 5-oxide",0
+mbcd0030109,COc1cccc(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)c1,"Piperazine, 1-cyclohexyl-4-[[2-(3-methoxyphenyl)-4-oxazolyl]methyl]-",0
+mbcd0027483,COc1cc([C@H]2Oc3cc([C@H]4Oc5cc(O)cc(O)c5C(=O)[C@@H]4O)ccc3O[C@@H]2CO)ccc1O,Silybin A,0
+mbcd0002890,Cc1c(S(=O)(=O)c2ccccc2)no[n+]1[O-],4-Benzenesulfonyl-3-methylfuroxan,0
+mbcd0023723,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)ccc12,Fisetin,0
+mbcd0002612,NC(=O)c1c(-c2ccccc2)no[n+]1[O-],"Furazancarboxamide, 4-phenyl-, 2-oxide",0
+mbcd0031237,O=C=NCc1ccccc1,Benzylisocyanate,0
+mbcd0003013,CC(C)Cc1ccc(C(C)C(=O)O)cc1,Ibuprofen,0
+mbcd0003106,CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1,Flurbiprofen,0
+mbcd0029415,CCOCN(C(=O)CSC[C@H](N)C(=O)O)c1c(C)cccc1CC,Acetochlor-Cys,0
+mbcd0003076,O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21,Naringenin,0
+mbcd0031204,C=C(CC[C@H](O)[C@@]1(C)CC[C@H](C(C)(C)O)O1)[C@H]1CC[C@H]2O[C@@H]([C@]3(C)CC[C@@H](Br)C(C)(C)O3)CC[C@]2(C)O1,Dehydrothyrsiferol,0
+mbcd0004749,COc1ccc([C@@H]2CC(=O)c3c(O)cc(O)cc3O2)cc1O,Hesperetin,0
+mbcd0003074,COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1,glyburide,0
+mbcd0000100,CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c(N)cccc3nc2-1,9-Aminocamptothecin,0
+mbcd0002645,[O-][n+]1onc(-c2ccccc2)c1-c1ccccc1,Diphenylfuroxan,0
+mbcd0029371,O=c1c(-c2ccc(O)cc2)coc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c12,Genistein-7-glucoside,0
+mbcd0000843,COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3cc(c(OC)cc3CCN1C)Oc1c(OC)c(OC)cc3c1[C@H](C2)N(C)CC3,Tetrandrine,0
+mbcd0028095,N[C@@H](Cc1ccc(N(CCCl)CCCl)cc1)C(=O)O,Melphalan,0
+mbcd0026436,CC(C(=O)O)c1ccc(N2Cc3ccccc3C2=O)cc1,Isindone,0
+mbcd0012636,CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)nc21,Enoxacin,0
+mbcd0031213,CN(C)c1ccc(-c2nc3ccccc3c(=O)n2Cc2ccccc2)cc1,"4(3H)-Quinazolinone, 2-[4-(dimethylamino)phenyl]-3-(phenylmethyl)-",0
+mbcd0002644,NS(=O)(=O)c1no[n+]([O-])c1-c1ccccc1,"1,2,5-Oxadiazole-3-sulfonamide, 4-phenyl-, 5-oxide",0
+mbcd0030106,COc1cc2c(cc1OC)CN(Cc1coc(-c3cccc(O)c3)n1)CC2,"Phenol, 3-[4-[(3,4-dihydro-6,7-dimethoxy-2(1H)-isoquinolinyl)methyl]-2-oxazolyl]-",0
+mbcd0030114,COc1ccc(OC)c(-c2nc(CN3CCN(C4CCCCC4)CC3)co2)c1,"Piperazine, 1-cyclohexyl-4-[[2-(2,5-dimethoxyphenyl)-4-oxazolyl]methyl]-",0
+mbcd0003506,CCN1CCN(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3[C@@H]2SC(C)(C)[C@@H]3C(=O)O)c2ccccc2)C(=O)C1=O,Piperacillin,0
