@@ -1,16 +1,17 @@
 
 # MONSTROUS
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 MOlecular traNSporT inhibitoR and substrate predictOr Utility Server (MONSTROUS) is a computational transporter profiler that predicts the potential of a chemical to interact with transporters recommended for testing in drug development by regulatory agencies. Currently, these transporters are considered to be a major player in determining the safety and efficacy of drugs. MONSTROUS utilizes either graph convolutional neural networks or similarity-based cheminformatics approaches to screen query chemicals against 12 transporters widely expressed in various tissues, including liver, brain, and kidney, and makes predictions as to their potential to be inhibitors as well as substrates.
 
 The MONSTROUS web app is available at https://monstrous.bhsai.org.
 
-##### Supporting information for paper:
-Title: MONSTROUS: a web-based chemical-transporter interaction profiler
+##### Citation
 
-Authors: Mohamed Diwan M. AbdulHameed,
-Souvik Dey, Zhen Xu, Ben Clancy,
-Valmik Desai, and Anders Wallqvist
+If you use this code in your research, please cite:
+
+AbdulHameed, M. D. M., Dey, S., Xu, Z., Clancy, B., Desai, V., & Wallqvist, A. (2025). MONSTROUS: a web-based chemical-transporter interaction profiler. Frontiers in pharmacology, 16, 1498945. https://doi.org/10.3389/fphar.2025.1498945
 
 ### Intro
 This repository contains the data and models used to make MONSTROUS's predictions and has sorted this data into 4 sections:
