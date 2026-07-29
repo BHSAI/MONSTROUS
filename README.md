@@ -48,7 +48,7 @@ A summary list of the transporters used in MONSTROUS along with their class, gen
 ## MONSTROUS Command Line Tool
 
 ### Setting up the environment
-To run the MONSTROUS Command Line Tool, you will need a Python 3 installation and a python environment with the necessary packages installed. To initialize your environment, run the following:
+To run the MONSTROUS Command Line Tool, you will need a Python 3.12 installation and a python environment with the necessary packages installed. To initialize your environment, run the following:
 ``` Powershell
 # Windows
 python -m venv .\.venv
@@ -63,7 +63,7 @@ source .venv/bin/activate
 pip install -r requirements/requirements-linux.txt
 pip install -r requirements/requirements-torch.txt
 ```
-**Note:** In the first command, you may need to replace `python` with `python3` or the path to the specific Python 3 installation you want to use. Once your environment is activated, just use `python` for any following commands, such as those in the next section.
+**Note:** In the first command, you may need to replace `python` with `python3` or the path to the specific Python installation you want to use. Once your environment is activated, just use `python` for any following commands, such as those in the next section.
 
 ### Running the MONSTROUS command line tool
 
