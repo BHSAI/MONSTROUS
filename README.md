@@ -47,20 +47,27 @@ A summary list of the transporters used in MONSTROUS along with their class, gen
 
 ## MONSTROUS Command Line Tool
 
-### Setting up the anaconda environment
-To run the python script, you will first need Anaconda installed. From an Anaconda prompt, set up a new environment using the following commands:
-
-`conda create -n monstrous python=3.9`
-
-`conda activate monstrous`
-
-Next, navigate to this repository's folder and enter the following command to install MONSTROUS's dependencies:
-
-`pip install -r requirements.txt`
+### Setting up the environment
+To run the MONSTROUS Command Line Tool, you will need a Python 3.12 installation and a python environment with the necessary packages installed. To initialize your environment, run the following:
+``` Powershell
+# Windows
+python -m venv .\.venv
+.\.venv\Scripts\Activate.ps1
+pip install -r .\requirements\requirements-windows.txt
+pip install -r .\requirements\requirements-torch.txt
+```
+``` sh
+# Linux
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements/requirements-linux.txt
+pip install -r requirements/requirements-torch.txt
+```
+**Note:** In the first command, you may need to replace `python` with `python3` or the path to the specific Python installation you want to use. Once your environment is activated, just use `python` for any following commands, such as those in the next section.
 
 ### Running the MONSTROUS command line tool
 
-Once everything is installed, you can then run the script by running `python python/monstrous_clt.py` followed by any of the following tags (and must include the `-i` , input file and tag):
+Once your environment is set up and activated, you can run the script by running `python python/monstrous_clt.py` followed by any of the following tags (and must include the `-i` , input file and tag):
 - `-h` or `--help`: Shows a help message explaining these tags.
 - `-i [INPUT]` or `--input [INPUT]`: The file location of a .CSV file whose first column is 'Name' and whose second is 'SMILES' and contains the list of SMILES to be submitted.
 - `-o [OUTPUT]` or `--output [OUTPUT]`: The output file path
